@@ -13,7 +13,7 @@
 
 ## 注册Webhook
 
-`POST https://www.hulunote.com/r2d2/webhook/register`
+`POST https://www.hulunote.com/r2d2/webhook/manage/register`
 
 * 请求body参数:
   
@@ -52,7 +52,7 @@
 
 ## 更新Webhook信息
 
-`POST https://www.hulunote.com/r2d2/webhook/update-register`
+`POST https://www.hulunote.com/r2d2/webhook/manage/update-register`
 
 * 请求参数：
   
@@ -83,7 +83,7 @@
 
 ## 获取已注册的webhook信息
 
-`POST https://www.hulunote.com/r2d2/webhook/get-registered-infos`
+`POST https://www.hulunote.com/r2d2/webhook/manage/get-registered-infos`
 
 * 请求参数：(无)
   
@@ -113,7 +113,7 @@
 
 ## 添加(自己注册的)Webhook用户
 
-`POST https://www.hulunote.com/r2d2/webhook/add-webhook-user`
+`POST https://www.hulunote.com/r2d2/webhook/manage/add-webhook-user`
 
 * 请求参数：
   
@@ -135,7 +135,7 @@
 
 ## 移除(自己注册的)Webhook用户
 
-`POST https://www.hulunote.com/r2d2/webhook/remove-webhook-user`
+`POST https://www.hulunote.com/r2d2/webhook/manage/remove-webhook-user`
 
 * 请求参数：
   
@@ -156,7 +156,7 @@
 
 ## 获取(自己注册的)Webhook的所有用户
 
-`POST https://www.hulunote.com/r2d2/webhook/get-all-webhook-users`
+`POST https://www.hulunote.com/r2d2/webhook/manage/get-all-webhook-users`
 
 * 请求参数：
 
@@ -194,7 +194,7 @@
 
 ## 获取已加入的所有Webhook信息
 
-`POST https://www.hulunote.com/r2d2/webhook/get-myself-webhook-users`
+`POST https://www.hulunote.com/r2d2/webhook/manage/get-myself-webhook-users`
 
 * 请求参数：(无)
   
@@ -226,7 +226,7 @@
 
 ## 更新自己的Identity
 
-`POST https://www.hulunote.com/r2d2/webhook/update-webhook-user-idenity`
+`POST https://www.hulunote.com/r2d2/webhook/manage/update-webhook-user-idenity`
 
 * 请求参数：
   
@@ -247,7 +247,7 @@
 
 ## 离开Webhook
 
-`POST https://www.hulunote.com/r2d2/webhook/leave-webhook`
+`POST https://www.hulunote.com/r2d2/webhook/manage/leave-webhook`
 
 * 请求参数：
   
