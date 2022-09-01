@@ -21,4 +21,4 @@ https://github.com/hulunote/documents/blob/master/R2D2WebHook%E4%BD%BF%E7%94%A8%
 https://github.com/hulunote/documents/blob/master/R2D2WebHook%E7%AE%A1%E7%90%86%E6%8E%A5%E5%8F%A3.md
 ## 快捷记录笔记自定义API
 ### 笔记库首页点击头像，然后点击个人中心，获取自定义API
-
+![](https://raw.githubusercontent.com/hulunote/documents/master/put-api.png)
