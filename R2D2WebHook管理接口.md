@@ -11,6 +11,11 @@
   - [更新自己的Identity](#更新自己的identity)
   - [离开Webhook](#离开webhook)
 
+R2D2Webhook的管理端接口，在调用时，需要添加用户信息的jwt才能通过身份验证而使用这些管理接口：
+
+* header的key： `x-functor-api-token`
+
+
 ## 注册Webhook
 
 `POST https://www.hulunote.com/r2d2/webhook/manage/register`
