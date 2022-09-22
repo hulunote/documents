@@ -2,6 +2,7 @@
 
 - [R2D2WebHook管理接口](#r2d2webhook管理接口)
   - [注册Webhook](#注册webhook)
+    - [通过webhook桥接到飞书的例子](#通过webhook桥接到飞书的例子)
   - [更新Webhook信息](#更新webhook信息)
   - [获取已注册的webhook信息](#获取已注册的webhook信息)
   - [添加(自己注册的)Webhook用户](#添加自己注册的webhook用户)
@@ -54,6 +55,21 @@ R2D2Webhook的管理端接口，在调用时，需要添加用户信息的jwt才
     "error": "用户已存在同名的wehbook记录"
   }
   ```
+
+### 通过webhook桥接到飞书的例子
+
+  ```json
+  {
+    "name": "hulunote-webhook-to-feishu",
+    "desc": "葫芦笔记R2D2的webhook桥接到飞书",
+    "secret": "123456",
+    "user-server-url": "https://open.feishu.cn/open-apis/bot/v2/hook/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "json-template": "{\"msg_type\": \"text\",\"content\": {\"text\": \"@@content\"}}"
+  }
+  ```
+
+其中的`json-template`就是一个完成的json文本，而且是飞书机器人接受的json格式，将其中的`text`内容替换成葫芦笔记webhook的`@@content`。
+
 
 ## 更新Webhook信息
 
